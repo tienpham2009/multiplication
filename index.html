@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang cuu chuong</title>
+</head>
+<body>
+<script>
+    let a;
+    a = '<table border="1" cellPadding="3" cellSpacing="0" style="text-align: center">'
+    for (let i = 2; i <= 9; i++) {
+        a += '<tr>';
+        for (let j = 1; j <= 9; j++) {
+            a += '<td style="width: 100px">' + i + "x" + j +"=" + i*j +'</td>'
+        }
+    a += '</tr>'
+    }
+    a += '</table>'
+    document.write(a);
+</script>
+</body>
+</html>
